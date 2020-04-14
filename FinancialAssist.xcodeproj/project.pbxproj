@@ -8,33 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		2B485CF3AE150AB3534709CC /* Pods_FinancialAssist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E21DE18EC7E53C60D8CF7A /* Pods_FinancialAssist.framework */; };
-		F82D18F62415607F00B57DA4 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D18F52415607F00B57DA4 /* CollectionViewController.swift */; };
-		F87CBBE6241935B300DE2256 /* MoneyOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CBBE5241935B300DE2256 /* MoneyOut.swift */; };
+		F816DE9724450CD30020D10C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F816DE9624450CD30020D10C /* Main.storyboard */; };
+		F816DE9924450D540020D10C /* DateToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816DE9824450D540020D10C /* DateToString.swift */; };
+		F82D18F62415607F00B57DA4 /* transactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D18F52415607F00B57DA4 /* transactionHistory.swift */; };
+		F87CBBEA24193B7200DE2256 /* transactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CBBE924193B7200DE2256 /* transactionCell.swift */; };
 		F8AAAA2624111D1700CCEE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AAAA2524111D1700CCEE02 /* AppDelegate.swift */; };
 		F8AAAA2D24111D1800CCEE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8AAAA2C24111D1800CCEE02 /* Assets.xcassets */; };
 		F8AAAA3024111D1800CCEE02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8AAAA2E24111D1800CCEE02 /* LaunchScreen.storyboard */; };
 		F8AAAA3824111E7F00CCEE02 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AAAA3724111E7F00CCEE02 /* Transaction.swift */; };
-		F8AAAA3E24119E7C00CCEE02 /* categoriesOfExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AAAA3D24119E7C00CCEE02 /* categoriesOfExpenses.swift */; };
 		F8AAAA402411A5CC00CCEE02 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AAAA3F2411A5CC00CCEE02 /* StorageManager.swift */; };
-		F8DEDD2524157AE100F19FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DEDD2424157AE100F19FC2 /* Main.storyboard */; };
-		F8DEDD2724157CA400F19FC2 /* ArtCoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DEDD2624157CA400F19FC2 /* ArtCoverCell.swift */; };
+		F8F33E9E241AC37200C87001 /* AddTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F33E9D241AC37200C87001 /* AddTransaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11E21DE18EC7E53C60D8CF7A /* Pods_FinancialAssist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinancialAssist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		767928072596AFE31565D149 /* Pods-FinancialAssist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancialAssist.release.xcconfig"; path = "Target Support Files/Pods-FinancialAssist/Pods-FinancialAssist.release.xcconfig"; sourceTree = "<group>"; };
-		F82D18F52415607F00B57DA4 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		F87CBBE5241935B300DE2256 /* MoneyOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyOut.swift; sourceTree = "<group>"; };
+		F816DE9624450CD30020D10C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F816DE9824450D540020D10C /* DateToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateToString.swift; sourceTree = "<group>"; };
+		F82D18F52415607F00B57DA4 /* transactionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transactionHistory.swift; sourceTree = "<group>"; };
+		F87CBBE924193B7200DE2256 /* transactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transactionCell.swift; sourceTree = "<group>"; };
 		F8AAAA2224111D1700CCEE02 /* FinancialAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AAAA2524111D1700CCEE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8AAAA2C24111D1800CCEE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8AAAA2F24111D1800CCEE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8AAAA3124111D1800CCEE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8AAAA3724111E7F00CCEE02 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		F8AAAA3D24119E7C00CCEE02 /* categoriesOfExpenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesOfExpenses.swift; sourceTree = "<group>"; };
 		F8AAAA3F2411A5CC00CCEE02 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
-		F8DEDD2424157AE100F19FC2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F8DEDD2624157CA400F19FC2 /* ArtCoverCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtCoverCell.swift; sourceTree = "<group>"; };
+		F8F33E9D241AC37200C87001 /* AddTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransaction.swift; sourceTree = "<group>"; };
 		FABF886EB87230CAB9CAC1CB /* Pods-FinancialAssist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancialAssist.debug.xcconfig"; path = "Target Support Files/Pods-FinancialAssist/Pods-FinancialAssist.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +67,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F816DE9A24450DD40020D10C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8AAAA3F2411A5CC00CCEE02 /* StorageManager.swift */,
+				F816DE9824450D540020D10C /* DateToString.swift */,
+				F8AAAA3724111E7F00CCEE02 /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F816DE9B24450DDC0020D10C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F816DE9624450CD30020D10C /* Main.storyboard */,
+				F8AAAA2E24111D1800CCEE02 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F816DE9C24450DED0020D10C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F87CBBE924193B7200DE2256 /* transactionCell.swift */,
+				F8F33E9D241AC37200C87001 /* AddTransaction.swift */,
+				F82D18F52415607F00B57DA4 /* transactionHistory.swift */,
+				F8AAAA2524111D1700CCEE02 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		F8AAAA1924111D1600CCEE02 = {
 			isa = PBXGroup;
 			children = (
@@ -88,17 +118,11 @@
 		F8AAAA2424111D1700CCEE02 /* FinancialAssist */ = {
 			isa = PBXGroup;
 			children = (
-				F8AAAA2524111D1700CCEE02 /* AppDelegate.swift */,
-				F82D18F52415607F00B57DA4 /* CollectionViewController.swift */,
-				F8DEDD2624157CA400F19FC2 /* ArtCoverCell.swift */,
-				F8DEDD2424157AE100F19FC2 /* Main.storyboard */,
-				F87CBBE5241935B300DE2256 /* MoneyOut.swift */,
+				F816DE9C24450DED0020D10C /* Controller */,
+				F816DE9B24450DDC0020D10C /* View */,
+				F816DE9A24450DD40020D10C /* Model */,
 				F8AAAA2C24111D1800CCEE02 /* Assets.xcassets */,
-				F8AAAA2E24111D1800CCEE02 /* LaunchScreen.storyboard */,
 				F8AAAA3124111D1800CCEE02 /* Info.plist */,
-				F8AAAA3724111E7F00CCEE02 /* Transaction.swift */,
-				F8AAAA3D24119E7C00CCEE02 /* categoriesOfExpenses.swift */,
-				F8AAAA3F2411A5CC00CCEE02 /* StorageManager.swift */,
 			);
 			path = FinancialAssist;
 			sourceTree = "<group>";
@@ -163,7 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DEDD2524157AE100F19FC2 /* Main.storyboard in Resources */,
+				F816DE9724450CD30020D10C /* Main.storyboard in Resources */,
 				F8AAAA3024111D1800CCEE02 /* LaunchScreen.storyboard in Resources */,
 				F8AAAA2D24111D1800CCEE02 /* Assets.xcassets in Resources */,
 			);
@@ -218,13 +242,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87CBBE6241935B300DE2256 /* MoneyOut.swift in Sources */,
-				F82D18F62415607F00B57DA4 /* CollectionViewController.swift in Sources */,
-				F8DEDD2724157CA400F19FC2 /* ArtCoverCell.swift in Sources */,
+				F87CBBEA24193B7200DE2256 /* transactionCell.swift in Sources */,
+				F8F33E9E241AC37200C87001 /* AddTransaction.swift in Sources */,
+				F82D18F62415607F00B57DA4 /* transactionHistory.swift in Sources */,
 				F8AAAA3824111E7F00CCEE02 /* Transaction.swift in Sources */,
 				F8AAAA402411A5CC00CCEE02 /* StorageManager.swift in Sources */,
+				F816DE9924450D540020D10C /* DateToString.swift in Sources */,
 				F8AAAA2624111D1700CCEE02 /* AppDelegate.swift in Sources */,
-				F8AAAA3E24119E7C00CCEE02 /* categoriesOfExpenses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

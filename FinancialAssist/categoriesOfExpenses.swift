@@ -19,7 +19,12 @@ class CategoryOfExpenses: Object {
         self.name = name
         self.icon = icon
     }
-    func addTransaction(transaction: Transaction) -> () {
-        StorageManager.saveTransaction(transaction)
+
+}
+
+func getCategory(categorys: [CategoryOfExpenses], categoryName: String) -> CategoryOfExpenses{
+    for category in categorys {
+        if (category.name == categoryName){return category}
     }
+    
 }
