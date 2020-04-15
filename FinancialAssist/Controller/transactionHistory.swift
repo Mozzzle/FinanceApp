@@ -92,3 +92,4 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         let newTransaction = segue.destination as! AddTransaction
         newTransaction.inOrOut = inOrOut
     }
+}

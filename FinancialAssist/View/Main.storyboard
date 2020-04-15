@@ -138,12 +138,15 @@
                     <navigationItem key="navigationItem" id="VYv-8o-m3b">
                         <nil key="title"/>
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="LkE-Li-7kh">
-                            <rect key="frame" x="18" y="8" width="283" height="30"/>
+                            <rect key="frame" x="18.5" y="7" width="283" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
                                 <segment title="First"/>
                                 <segment title="Second"/>
                             </segments>
+                            <connections>
+                                <segue destination="DHJ-GH-tpU" kind="show" id="b4e-se-eDk"/>
+                            </connections>
                         </segmentedControl>
                     </navigationItem>
                     <connections>
@@ -175,6 +178,31 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dld-wM-LDU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-303" y="9"/>
+        </scene>
+        <!--CharsVC-->
+        <scene sceneID="tNL-lE-OBQ">
+            <objects>
+                <viewController id="DHJ-GH-tpU" customClass="CharsVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bmn-Y0-oOO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jvd-et-waw" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="40" y="106" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NH3-Uo-WdP"/>
+                    </view>
+                    <connections>
+                        <outlet property="chart" destination="jvd-et-waw" id="7UD-LV-GCK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uAz-F3-GzN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="441" y="-667"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="usn-pL-zVU">
