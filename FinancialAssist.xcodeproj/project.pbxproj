@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		077714FE244B3405005EF19E /* CharVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077714FD244B3405005EF19E /* CharVCViewController.swift */; };
 		2B485CF3AE150AB3534709CC /* Pods_FinancialAssist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E21DE18EC7E53C60D8CF7A /* Pods_FinancialAssist.framework */; };
-		F816DE9724450CD30020D10C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F816DE9624450CD30020D10C /* Main.storyboard */; };
 		F816DE9924450D540020D10C /* DateToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816DE9824450D540020D10C /* DateToString.swift */; };
-		F82D18F62415607F00B57DA4 /* transactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D18F52415607F00B57DA4 /* transactionHistory.swift */; };
-		F860E07F244791A200C2382F /* CharsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F860E07E244791A200C2382F /* CharsVC.swift */; };
-		F860E0A824479AB500C2382F /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F860E0A724479AB500C2382F /* Charts.framework */; };
-		F860E0A924479AB500C2382F /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F860E0A724479AB500C2382F /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F87CBBEA24193B7200DE2256 /* transactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CBBE924193B7200DE2256 /* transactionCell.swift */; };
+		F8175D452448CDB100CCF0AD /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8175D442448CDB100CCF0AD /* Category.swift */; };
+		F81F1E7F244B3E5A008044E8 /* CategoryCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81F1E7E244B3E5A008044E8 /* CategoryCustomCell.swift */; };
+		F81F1E83244B4250008044E8 /* CategorysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81F1E82244B4250008044E8 /* CategorysViewController.swift */; };
+		F81F1E87244B44E5008044E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81F1E86244B44E5008044E8 /* Main.storyboard */; };
+		F82D18F62415607F00B57DA4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D18F52415607F00B57DA4 /* MainViewController.swift */; };
+		F87CBBEA24193B7200DE2256 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CBBE924193B7200DE2256 /* TransactionCell.swift */; };
 		F8AAAA2624111D1700CCEE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AAAA2524111D1700CCEE02 /* AppDelegate.swift */; };
 		F8AAAA2D24111D1800CCEE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8AAAA2C24111D1800CCEE02 /* Assets.xcassets */; };
 		F8AAAA3024111D1800CCEE02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8AAAA2E24111D1800CCEE02 /* LaunchScreen.storyboard */; };
@@ -30,7 +31,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F860E0A924479AB500C2382F /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,14 +38,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		077714FD244B3405005EF19E /* CharVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharVCViewController.swift; sourceTree = "<group>"; };
 		11E21DE18EC7E53C60D8CF7A /* Pods_FinancialAssist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinancialAssist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		767928072596AFE31565D149 /* Pods-FinancialAssist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancialAssist.release.xcconfig"; path = "Target Support Files/Pods-FinancialAssist/Pods-FinancialAssist.release.xcconfig"; sourceTree = "<group>"; };
-		F816DE9624450CD30020D10C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F816DE9824450D540020D10C /* DateToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateToString.swift; sourceTree = "<group>"; };
-		F82D18F52415607F00B57DA4 /* transactionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transactionHistory.swift; sourceTree = "<group>"; };
-		F860E07E244791A200C2382F /* CharsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharsVC.swift; sourceTree = "<group>"; };
-		F860E0A724479AB500C2382F /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Charts.framework; sourceTree = "<group>"; };
-		F87CBBE924193B7200DE2256 /* transactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transactionCell.swift; sourceTree = "<group>"; };
+		F8175D442448CDB100CCF0AD /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F81F1E7E244B3E5A008044E8 /* CategoryCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCustomCell.swift; sourceTree = "<group>"; };
+		F81F1E82244B4250008044E8 /* CategorysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorysViewController.swift; sourceTree = "<group>"; };
+		F81F1E86244B44E5008044E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F82D18F52415607F00B57DA4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F87CBBE924193B7200DE2256 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
 		F8AAAA2224111D1700CCEE02 /* FinancialAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AAAA2524111D1700CCEE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8AAAA2C24111D1800CCEE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +65,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B485CF3AE150AB3534709CC /* Pods_FinancialAssist.framework in Frameworks */,
-				F860E0A824479AB500C2382F /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,9 +91,6 @@
 		F816DE9A24450DD40020D10C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F8AAAA3F2411A5CC00CCEE02 /* StorageManager.swift */,
-				F816DE9824450D540020D10C /* DateToString.swift */,
-				F8AAAA3724111E7F00CCEE02 /* Transaction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,8 +98,8 @@
 		F816DE9B24450DDC0020D10C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F816DE9624450CD30020D10C /* Main.storyboard */,
 				F8AAAA2E24111D1800CCEE02 /* LaunchScreen.storyboard */,
+				F81F1E86244B44E5008044E8 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -109,19 +107,97 @@
 		F816DE9C24450DED0020D10C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F87CBBE924193B7200DE2256 /* transactionCell.swift */,
 				F8F33E9D241AC37200C87001 /* AddTransaction.swift */,
-				F82D18F52415607F00B57DA4 /* transactionHistory.swift */,
-				F8AAAA2524111D1700CCEE02 /* AppDelegate.swift */,
-				F860E07E244791A200C2382F /* CharsVC.swift */,
+				F82D18F52415607F00B57DA4 /* MainViewController.swift */,
+				077714FD244B3405005EF19E /* CharVCViewController.swift */,
+				F81F1E82244B4250008044E8 /* CategorysViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		F8175D3F2448CCC200CCF0AD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F8AAAA2524111D1700CCEE02 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F8175D402448CCE400CCF0AD /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				F816DE9A24450DD40020D10C /* Model */,
+				F816DE9B24450DDC0020D10C /* View */,
+				F816DE9C24450DED0020D10C /* Controller */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		F8175D412448CD6300CCF0AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8175D482448CE6900CCF0AD /* Custom Cells */,
+				F8175D472448CE2900CCF0AD /* DateFunction */,
+				F8175D462448CE0F00CCF0AD /* Manager */,
+				F8175D432448CD8D00CCF0AD /* Category */,
+				F8175D422448CD8100CCF0AD /* Transaction */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F8175D422448CD8100CCF0AD /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				F8AAAA3724111E7F00CCEE02 /* Transaction.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		F8175D432448CD8D00CCF0AD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F8175D442448CDB100CCF0AD /* Category.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F8175D462448CE0F00CCF0AD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F8AAAA3F2411A5CC00CCEE02 /* StorageManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F8175D472448CE2900CCF0AD /* DateFunction */ = {
+			isa = PBXGroup;
+			children = (
+				F816DE9824450D540020D10C /* DateToString.swift */,
+			);
+			path = DateFunction;
+			sourceTree = "<group>";
+		};
+		F8175D482448CE6900CCF0AD /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F87CBBE924193B7200DE2256 /* TransactionCell.swift */,
+				F81F1E7E244B3E5A008044E8 /* CategoryCustomCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		F8175D492448CECA00CCF0AD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F8AAAA2C24111D1800CCEE02 /* Assets.xcassets */,
+				F8AAAA3124111D1800CCEE02 /* Info.plist */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		F8AAAA1924111D1600CCEE02 = {
 			isa = PBXGroup;
 			children = (
-				F860E0A724479AB500C2382F /* Charts.framework */,
 				F8AAAA2424111D1700CCEE02 /* FinancialAssist */,
 				F8AAAA2324111D1700CCEE02 /* Products */,
 				9C1262FC9FC08E93AAC1EB7D /* Pods */,
@@ -140,11 +216,10 @@
 		F8AAAA2424111D1700CCEE02 /* FinancialAssist */ = {
 			isa = PBXGroup;
 			children = (
-				F816DE9C24450DED0020D10C /* Controller */,
-				F816DE9B24450DDC0020D10C /* View */,
-				F816DE9A24450DD40020D10C /* Model */,
-				F8AAAA2C24111D1800CCEE02 /* Assets.xcassets */,
-				F8AAAA3124111D1800CCEE02 /* Info.plist */,
+				F8175D3F2448CCC200CCF0AD /* Application */,
+				F8175D402448CCE400CCF0AD /* MVC */,
+				F8175D412448CD6300CCF0AD /* Classes */,
+				F8175D492448CECA00CCF0AD /* Sources */,
 			);
 			path = FinancialAssist;
 			sourceTree = "<group>";
@@ -210,7 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F816DE9724450CD30020D10C /* Main.storyboard in Resources */,
+				F81F1E87244B44E5008044E8 /* Main.storyboard in Resources */,
 				F8AAAA3024111D1800CCEE02 /* LaunchScreen.storyboard in Resources */,
 				F8AAAA2D24111D1800CCEE02 /* Assets.xcassets in Resources */,
 			);
@@ -265,14 +340,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87CBBEA24193B7200DE2256 /* transactionCell.swift in Sources */,
+				F87CBBEA24193B7200DE2256 /* TransactionCell.swift in Sources */,
 				F8F33E9E241AC37200C87001 /* AddTransaction.swift in Sources */,
-				F860E07F244791A200C2382F /* CharsVC.swift in Sources */,
-				F82D18F62415607F00B57DA4 /* transactionHistory.swift in Sources */,
+				F81F1E7F244B3E5A008044E8 /* CategoryCustomCell.swift in Sources */,
+				F81F1E83244B4250008044E8 /* CategorysViewController.swift in Sources */,
+				F82D18F62415607F00B57DA4 /* MainViewController.swift in Sources */,
 				F8AAAA3824111E7F00CCEE02 /* Transaction.swift in Sources */,
 				F8AAAA402411A5CC00CCEE02 /* StorageManager.swift in Sources */,
 				F816DE9924450D540020D10C /* DateToString.swift in Sources */,
+				077714FE244B3405005EF19E /* CharVCViewController.swift in Sources */,
 				F8AAAA2624111D1700CCEE02 /* AppDelegate.swift in Sources */,
+				F8175D452448CDB100CCF0AD /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +495,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = FinancialAssist/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FinancialAssist/Sources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,7 +519,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = FinancialAssist/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FinancialAssist/Sources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
